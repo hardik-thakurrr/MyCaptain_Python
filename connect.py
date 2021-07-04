@@ -25,4 +25,4 @@ def get_hotel_info(dbname):
     cur.execute("SELECT * FROM OYO_HOTELS")
     table_data = cur.fetchall()
     for record in table_data:
-        print(record)
+        print(record) 
